@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Volumenes</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-
+scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" href="css/salario.css" />
+<link rel="stylesheet" href="css/formoid-solid-purple.css" />
+<script src="js/disabledtextfields.js"></script>
+<script src="js/inputFilter.js"></script>
+<!-- <script src="js/formoid-solid-purple.js"></script> -->
+<script src="js/modernizr.custom.lis.js"></script>
+<script src="js/prefixfree.min.js"></script>
+</head>
+<body>
+<header id="inset">
+<h1>Conversion</h1>
+<h1>Llene los campos en los cuales desea hacer la conversion</h1>
+</header>
+<section>
+<article>
+<div id="empleado">
+<form action="volumenes.php" method="POST" name="dia" id="dia"
+class="formoid-solid-purple">
+<div class="title">
+<h2>Cubo</h2>
+</div>
+<div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="cm3" id="cm3" maxlength="12"
+placeholder="Ingrese el area que desee calcular"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+<!-- <div class="element-number">
+<label class="title"></label>
+<div class="item-cont">
+<input type="text" name="m3" id="m3" maxlength="12"
+placeholder="Metro cubico" allowed="0123456789." messageid="numbersonly"
+class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+<div class="element-number">
+<label class="title"></label>
+<div class="item-cont">
+<input type="text" name="p3" id="p3" maxlength="12"
+placeholder="Pulgada cubica" allowed="0123456789." messageid="numbersonly"
+class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div> -->
+
+<div class="title">
+<h2>Esfera</h2>
+</div>
+
+<div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Ecm3" id="Ecm3" maxlength="12"
+placeholder="Ingrese el area que desea calcular"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+
+<!-- <div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Em3" id="Em3" maxlength="12"
+placeholder="Metro cubico"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+
+<div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Ep3" id="Ep3" maxlength="12"
+placeholder="Centimetro cubico"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div> -->
+
+
+<div class="title">
+<h2>Cilindro</h2>
+</div>
+
+<div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Tcm3" id="Tcm3" maxlength="12"
+placeholder="Ingrese el radio"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+
+<div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Tm3" id="Tm3" maxlength="12"
+placeholder="Ingrese la base"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div>
+
+<!-- <div class="element-number">
+<label class="title"></label>
+<div class="nameFirst">
+<input type="text" name="Tp3" id="Tp3" maxlength="12"
+placeholder="Centimetro cubico"
+allowed="0123456789" messageid="numbersonly" class="large" />
+<span class="icon-place"></span>
+</div>
+<span id="numbersonly">Solo se aceptan numeros</span>
+</div> -->
+
+
+
+<div class="submit">
+<input type="submit" name="enviar" id="enviar" value="Enviar" />
+<input type="reset" name="reset" id="reset" value="Restablecer" />
+</div>
+</form>
+</div>
+</article>
+</section>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
